@@ -21,3 +21,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 3000); // 3 segundos
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var nav = document.getElementById("navsection");
+    var header = document.getElementById("header");
+    
+    window.onscroll = function() {
+        var scrollY = window.scrollY || document.documentElement.scrollTop;
+        
+        if (scrollY >= header.offsetHeight) {
+            nav.classList.add("sticky");
+        } else {
+            nav.classList.remove("sticky");
+        }
+    };
+});

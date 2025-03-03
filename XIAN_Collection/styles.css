@@ -6,9 +6,14 @@ html {
 body {
     background: linear-gradient(#d1cfe2, white);
     background-repeat:no-repeat;
-    height: 100vh; /* Hace que el fondo ocupe toda la pantalla */
+    height: 100vh; 
     margin: 0;
 }
+
+h2 {
+    color: #52b2cf !important;
+}
+
 
 #headline {
     text-align: center;
@@ -26,6 +31,7 @@ body {
     font-weight: 400;
     color: #9cadce;
 }
+
 #description-headline{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
@@ -33,13 +39,13 @@ body {
     color: #7c96cb;
 }
 
-nav {
-    position: sticky;
-}
 
-.container-fluid {
+
+
+#nav-bar {
     background: linear-gradient(#d1cfe2, white)
 }
+
 
 .click-circle {
     position: absolute;
