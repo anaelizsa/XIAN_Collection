@@ -32,3 +32,126 @@ footer {
 .footer-links a:hover {
             color: #00aaff;
 }
+html {
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #d1cfe2;
+}
+body {
+    background: linear-gradient(#d1cfe2, white);
+    background-repeat:no-repeat;
+    height: 100vh; 
+    margin: 0;
+}
+
+h2 {
+    color: #52b2cf !important;
+}
+
+
+#headline {
+    text-align: center;
+    padding: 20px;
+    background-color: lavender;
+    border: 10px solid;
+    border-image: linear-gradient(to right, #7c96cb, darkslateblue);
+    border-image-slice: 1;
+    border-radius: 30px;
+}
+
+#title-headline {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: #9cadce;
+}
+
+#description-headline{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding: 2%;
+    color: #7c96cb;
+}
+
+
+
+
+#nav-bar {
+    background: linear-gradient(#d1cfe2, white)
+}
+
+
+.click-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(93, 63, 211, 0.7); /* Morado sin relleno */
+    border-radius: 50%;
+    pointer-events: none; /* Evita que interfiera con más clics */
+    animation: expand 3s infinite ease-out;
+}
+
+.image-interactive {
+    transition: opacity 0.5s ease-in-out; /* Esto hace que la transición sea suave */
+    opacity: 1; /* Asegura de que las imágenes sean visibles inicialmente */
+}
+
+@keyframes expand {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(4);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(8);
+        opacity: 0;
+    }
+}
+
+body {
+    background-color: #d1cfe2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #9cadce;
+    text-align: center;
+}
+
+h2 {
+    color: #52b2cf;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #d4afb9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-comprar {
+    background-color: #d4afb9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #b48a99;
+}
+
+
