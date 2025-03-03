@@ -1,3 +1,38 @@
+footer {
+    background-color: #d4afb9;
+    color: black;
+    text-align: justify, center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+        display: inline;
+        margin: 0 15px;
+}
+
+.footer-links a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+}
+
+.footer-links a:hover {
+            color: #00aaff;
+}
+
 html {
     margin: 1%;
     box-sizing: border-box;
@@ -11,10 +46,6 @@ body {
         font-family: Arial, sans-serif;
 }
 
-
-h2 {
-    color: #52b2cf !important;
-}
 
 
 #headline {
@@ -58,6 +89,11 @@ h2 {
     animation: expand 3s infinite ease-out;
 }
 
+.image-interactive {
+    transition: opacity 0.5s ease-in-out; /* Esto hace que la transición sea suave */
+    opacity: 1; /* Asegura de que las imágenes sean visibles inicialmente */
+}
+
 @keyframes expand {
     0% {
         transform: scale(1);
@@ -73,22 +109,23 @@ h2 {
     }
 }
 
-<<<<<<< Updated upstream
-=======
 
 h1 {
     color: #9cadce;
     text-align: center;
 }
 
+
 #headline2{
     color: #52b2cf
 }
+
 
 h2 {
     color: #52b2cf;
     margin-top: 20px;
     text-align: center;
+    color: #52b2cf !important;
 }
 
 .card {
@@ -118,8 +155,9 @@ h2 {
     background-color: #b48a99;
 }
 
+
 .fw-bold{
     padding: 5%;
 }
->>>>>>> Stashed changes
+
 
