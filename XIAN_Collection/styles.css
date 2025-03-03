@@ -57,6 +57,11 @@ h2 {
     animation: expand 3s infinite ease-out;
 }
 
+.image-interactive {
+    transition: opacity 0.5s ease-in-out; /* Esto hace que la transición sea suave */
+    opacity: 1; /* Asegura de que las imágenes sean visibles inicialmente */
+}
+
 @keyframes expand {
     0% {
         transform: scale(1);
@@ -71,4 +76,3 @@ h2 {
         opacity: 0;
     }
 }
-
