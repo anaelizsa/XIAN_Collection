@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <footer id="contacto">
+        <h2 style="font-family: cursive;">Contáctanos</h2>
+        <form action="/enviar" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+     
+    <footer id="sobre nosotras.">
+        <h2 style="font-family: cursive;">Sobre Nosotras</h2>
+
+        <p>XIAN Collection es una empresa de ropa deportiva la cual esta pensada y diseñada para mujeres.</p>
+        <h3 style="font-family: cursive;">Nuestra Misión:</h3>
+        <p>
+            Es empoderar a las mujeres para que se sientan cómodas, confiadas y auténticas en su piel. Nos comprometemos a diseñar y ofrecer ropa deportiva innovadora y de alta calidad que no solo se adapte a sus necesidades, sino que también refleje su personalidad y estilo único.
+            Queremos que cada mujer que use nuestros productos se sienta capaz de alcanzar sus objetivos, ya sea en el gimnasio, en la pista o en su vida diaria. Nuestro objetivo es proporcionar comodidad, flexibilidad y apoyo en cada movimiento, para que puedan enfocarse en lo que realmente importa: su bienestar y su pasión por el deporte.
+        </p>
+        <h3 style="font-family: cursive;">Visión:</h3>
+        <p>Ser líderes en el mercado de la ropa deportiva femenina, reconocidas por nuestra calidad, innovación y compromiso con el empoderamiento de las mujeres. Queremos que cada prenda que diseñamos no solo sea funcional, sino que también inspire a las mujeres a ser su mejor versión.</p>
+    </footer>
+        <script src="script.js"></script>
 </body>
 </html>
