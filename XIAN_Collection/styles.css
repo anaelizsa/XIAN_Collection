@@ -72,3 +72,45 @@ h2 {
     }
 }
 
+body {
+    background-color: #d1cfe2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #9cadce;
+    text-align: center;
+}
+
+h2 {
+    color: #52b2cf;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #d4afb9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-comprar {
+    background-color: #d4afb9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #b48a99;
+}
