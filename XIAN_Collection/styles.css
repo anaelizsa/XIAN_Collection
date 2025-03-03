@@ -8,7 +8,9 @@ body {
     background-repeat:no-repeat;
     height: 100vh; 
     margin: 0;
+        font-family: Arial, sans-serif;
 }
+
 
 h2 {
     color: #52b2cf !important;
@@ -18,7 +20,6 @@ h2 {
 #headline {
     text-align: center;
     padding: 20px;
-    background-color: lavender;
     border: 10px solid;
     border-image: linear-gradient(to right, #7c96cb, darkslateblue);
     border-image-slice: 1;
@@ -72,3 +73,52 @@ h2 {
     }
 }
 
+<<<<<<< Updated upstream
+=======
+
+h1 {
+    color: #9cadce;
+    text-align: center;
+}
+
+#headline2{
+    color: #52b2cf
+}
+
+h2 {
+    color: #52b2cf;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #d4afb9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-comprar {
+    background-color: #d4afb9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #b48a99;
+}
+
+.fw-bold{
+    padding: 5%;
+}
+>>>>>>> Stashed changes
