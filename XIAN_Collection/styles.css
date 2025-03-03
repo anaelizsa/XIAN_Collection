@@ -1,3 +1,72 @@
+html {
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #d1cfe2;
+}
+body {
+    background: linear-gradient(#d1cfe2, white);
+    background-repeat:no-repeat;
+    height: 100vh; /* Hace que el fondo ocupe toda la pantalla */
+    margin: 0;
+}
+
 h2 {
     color: #52b2cf !important;
 }
+
+#headline {
+    text-align: center;
+    padding: 20px;
+    background-color: lavender;
+    border: 10px solid;
+    border-image: linear-gradient(to right, #7c96cb, darkslateblue);
+    border-image-slice: 1;
+    border-radius: 30px;
+}
+
+#title-headline {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: #9cadce;
+}
+#description-headline{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding: 2%;
+    color: #7c96cb;
+}
+
+nav {
+    position: sticky;
+}
+
+.container-fluid {
+    background: linear-gradient(#d1cfe2, white)
+}
+
+.click-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(93, 63, 211, 0.7); /* Morado sin relleno */
+    border-radius: 50%;
+    pointer-events: none; /* Evita que interfiera con más clics */
+    animation: expand 3s infinite ease-out;
+}
+
+@keyframes expand {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(4);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(8);
+        opacity: 0;
+    }
+}
+
