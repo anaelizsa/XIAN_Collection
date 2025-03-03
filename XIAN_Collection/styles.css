@@ -1,3 +1,8 @@
 h2 {
     color: #52b2cf !important;
 }
+
+.image-interactive {
+    transition: opacity 0.5s ease-in-out; /* Esto hace que la transición sea suave */
+    opacity: 1; /* Asegura de que las imágenes sean visibles inicialmente */
+}
