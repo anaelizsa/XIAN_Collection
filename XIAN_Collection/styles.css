@@ -1,49 +1,16 @@
-footer {
-    background-color: #d4afb9;
-    color: black;
-    text-align: justify, center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links li {
-        display: inline;
-        margin: 0 15px;
-}
-
-.footer-links a {
-        color: white;
-        text-decoration: none;
-        transition: color 0.3s;
-}
-
-.footer-links a:hover {
-            color: #00aaff;
-}
 
 html {
     margin: 1%;
     box-sizing: border-box;
-    background-color: #d1cfe2;
+    background-color: black;
 }
+
 body {
     background: linear-gradient(#d1cfe2, white);
     background-repeat:no-repeat;
-    height: 100vh; 
+    height: 100%; 
+    width: 100%;
     margin: 0;
-        font-family: Arial, sans-serif;
 }
 
 
@@ -110,23 +77,16 @@ body {
 }
 
 
-h1 {
-    color: #9cadce;
-    text-align: center;
-}
-
-
 #headline2{
-    color: #52b2cf
-}
-
-
-h2 {
-    color: #52b2cf;
-    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    color: #d4afb9;
     text-align: center;
-    color: #52b2cf !important;
+    font-size: 50px;
+    font-weight: 45%;
+
 }
+
 
 .card {
     background-color: white;
@@ -141,23 +101,63 @@ h2 {
     transform: scale(1.05);
 }
 
-.btn-comprar {
-    background-color: #d4afb9;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.btn-comprar:hover {
-    background-color: #b48a99;
-}
-
 
 .fw-bold{
     padding: 5%;
+    font-size: 40px;
+    color: #52b2cf;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
+footer {
+    margin: 20px;
+    background-color: #fff2f6;
+    color: black;
+    text-align: justify, center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    border: 10px solid;
+    border-image: linear-gradient(to right, pink, violet);
+    border-image-slice: 1;
+    border-radius: 50px;
+}
 
+.footer-content {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+        display: inline;
+        margin: 0 15px;
+}
+
+.footer-links a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+}
+
+.footer-links a:hover {
+            color: #00aaff;
+}
+
+#contacto {
+    padding: 10px;
+    text-align: center;
+}
+
+#sobre-nosotras{
+    margin: 1%;
+    padding: 10%;
+}
